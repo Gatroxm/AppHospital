@@ -1,20 +1,23 @@
 /*
-Template Name: Admin pro Admin
+Template Name: App Hospital Admin
 Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: scss
 */
-@import '../variable'; 
+
+@import '../variable';
 
 /*******************
 Progress bar
 ******************/
+
 .progress.active .progress-bar,
 .progress-bar.active {
-  -webkit-animation: progress-bar-stripes 2s linear infinite;
-  -o-animation: progress-bar-stripes 2s linear infinite;
-  animation: progress-bar-stripes 2s linear infinite;
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    -o-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite;
 }
+
 .progress-vertical {
     min-height: 250px;
     height: 250px;
@@ -23,6 +26,7 @@ Progress bar
     margin-bottom: 0;
     margin-right: 20px;
 }
+
 .progress-vertical-bottom {
     min-height: 250px;
     height: 250px;
@@ -32,6 +36,7 @@ Progress bar
     margin-right: 20px;
     transform: rotate(180deg);
 }
+
 .progress-animated {
     -webkit-animation-duration: 5s;
     -webkit-animation-name: myanimation;
@@ -40,13 +45,15 @@ Progress bar
     animation-name: myanimation;
     transition: 5s all;
 }
+
 @-webkit-keyframes myanimation {
-  from {
-    width:0;
-  }
+    from {
+        width: 0;
+    }
 }
+
 @keyframes myanimation {
-  from {
-    width:0;
-  }
+    from {
+        width: 0;
+    }
 }

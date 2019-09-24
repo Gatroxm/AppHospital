@@ -1,35 +1,35 @@
 /*
-Template Name: Admin pro Admin
+Template Name: App Hospital Admin
 Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: scss
 */
-@import '../variable'; 
 
+@import '../variable';
 
 /*******************
 ribbons page
 ******************/
+
 .ribbon-wrapper,
 .ribbon-wrapper-reverse,
 .ribbon-wrapper-bottom,
 .ribbon-wrapper-right-bottom {
     position: relative;
-    
     padding: 50px 15px 15px 15px;
 }
-.ribbon-vwrapper{
+
+.ribbon-vwrapper {
     padding: 15px 15px 15px 50px;
     position: relative;
-   
 }
+
 .ribbon-overflow {
     overflow: hidden;
 }
 
 .ribbon-vwrapper-reverse {
     padding: 15px 50px 15px 15px;
-    
 }
 
 .ribbon-wrapper-bottom {
@@ -39,9 +39,11 @@ ribbons page
 .ribbon-wrapper-right-bottom {
     padding: 15px 50px 50px 15px;
 }
-.ribbon-content{
+
+.ribbon-content {
     margin-bottom: 0px;
 }
+
 .ribbon {
     padding: 0 20px;
     height: 30px;
@@ -347,7 +349,7 @@ ribbons page
 
 .ribbon-danger {
     background: $danger;
-} 
+}
 
 .ribbon-bookmark.ribbon-danger:before {
     border-color: $danger;
@@ -361,7 +363,7 @@ ribbons page
 
 .ribbon-bookmark.ribbon-vertical-l.ribbon-danger:before,
 .ribbon-bookmark.ribbon-vertical-r.ribbon-danger:before {
-    border-right-color:$danger;
+    border-right-color: $danger;
     border-bottom-color: transparent;
 }
 

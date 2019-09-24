@@ -1,11 +1,11 @@
 /*
-Template Name: Admin pro Admin
+Template Name: App Hospital Admin
 Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: scss
 */
 
-@import '../variable'; 
+@import '../variable';
 
 /*============================================================== 
 Easy pie chart 
@@ -31,7 +31,7 @@ Easy pie chart
     margin-bottom: 5px;
 }
 
-.pie-chart > span {
+.pie-chart>span {
     left: 0;
     margin-top: -2px;
     position: absolute;
@@ -41,7 +41,7 @@ Easy pie chart
     transform: translateY(-50%);
 }
 
-.chart > span > img {
+.chart>span>img {
     left: 0;
     margin-top: -2px;
     position: absolute;

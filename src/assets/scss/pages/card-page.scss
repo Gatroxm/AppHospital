@@ -1,14 +1,16 @@
 /*
-Template Name: Admin pro Admin
+Template Name: App Hospital Admin
 Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: scss
 */
 
-@import '../variable';    
+@import '../variable';
+
 /*******************
  Card title
 *******************/
+
 .card-inverse .card-bodyquote .blockquote-footer,
 .card-inverse .card-link,
 .card-inverse .card-subtitle,
@@ -16,12 +18,13 @@ File: scss
     color: rgba(255, 255, 255, .65);
 }
 
-.card-default{
-    .card-header{
-        background:$white;
-        border-bottom:0px;
+.card-default {
+    .card-header {
+        background: $white;
+        border-bottom: 0px;
     }
-} 
+}
+
 .card-success {
     background: $success;
     border-color: $success;
@@ -56,6 +59,7 @@ File: scss
     background: $megna;
     border-color: $megna;
 }
+
 
 /*============================================================== 
  Cards page
@@ -140,5 +144,4 @@ File: scss
         background: $primary;
         border-color: $primary;
     }
-} 
-
+}

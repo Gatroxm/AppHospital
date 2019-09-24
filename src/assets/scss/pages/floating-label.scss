@@ -1,14 +1,18 @@
 /*
-Template Name: Admin pro Admin
+Template Name: App Hospital Admin
 Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: scss
 */
-@import '../variable'; 
 
+@import '../variable';
 
 /*******************/
+
+
 /*Floating Label*/
+
+
 /*******************/
 
 .floating-labels .form-group {
@@ -16,7 +20,6 @@ File: scss
 }
 
 .floating-labels .form-control {
-    
     padding: 10px 10px 10px 0;
     display: block;
     border: none;
@@ -48,7 +51,6 @@ File: scss
 
 .floating-labels label {
     color: $bodytext;
-    
     position: absolute;
     cursor: auto;
     top: 5px;
@@ -147,27 +149,35 @@ File: scss
 .has-feedback label~.t-0 {
     top: 0;
 }
-.form-group.error input, .form-group.error select, .form-group.error textarea {
+
+.form-group.error input,
+.form-group.error select,
+.form-group.error textarea {
     border: 1px solid $danger;
 }
-.form-group.validate input, .form-group.validate select, .form-group.validate textarea{
-    border:1px solid $success;
+
+.form-group.validate input,
+.form-group.validate select,
+.form-group.validate textarea {
+    border: 1px solid $success;
 }
-.form-group.error .help-block{
-    ul{
+
+.form-group.error .help-block {
+    ul {
         padding: 0px;
-        color:$danger;
-            li{
-                list-style:none;
-                }
+        color: $danger;
+        li {
+            list-style: none;
+        }
     }
 }
-.form-group.issue .help-block{
-    ul{
+
+.form-group.issue .help-block {
+    ul {
         padding: 0px;
-        color:$warning;
-            li{
-                list-style:none;
-                }
+        color: $warning;
+        li {
+            list-style: none;
+        }
     }
 }

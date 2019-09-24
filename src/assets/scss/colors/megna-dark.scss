@@ -1,5 +1,5 @@
 /*
-Template Name: Admin Pro Admin
+Template Name: App Hospital Admin
 Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: scss
@@ -16,6 +16,7 @@ $sidebar-dark: #1c2128;
 $sidebar-alt:#1c2128;
 $themecolor-alt: #26c6da;
 $topbar-alt: #272c33;
+
 /*******************
 /*Top bar
 *******************/
@@ -29,17 +30,17 @@ $topbar-alt: #272c33;
         display: inline-block;
         color: rgba(255, 255, 255, 0.8);
     }
-    .navbar-nav .nav-item > {
+    .navbar-nav .nav-item> {
         a.nav-link {
-            color: rgba(255, 255, 255, 0.8); 
+            color: rgba(255, 255, 255, 0.8);
             &:hover,
             &:focus {
-                color:$white!important;
+                color: $white!important;
             }
         }
     }
-    .top-navbar .navbar-nav>.nav-item>span{
-        color:$white;
+    .top-navbar .navbar-nav>.nav-item>span {
+        color: $white;
     }
     .navbar-header {
         background: $topbar-alt;
@@ -64,9 +65,11 @@ $topbar-alt: #272c33;
 /*******************
 /*General Elements
 *******************/
-.lstick{
+
+.lstick {
     background: $themecolor;
 }
+
 a {
     color: $themecolor;
 }
@@ -82,12 +85,12 @@ a.link {
     background-color: $themecolor !important;
 }
 
-.pagination > .active > a,
-.pagination > .active > span,
-.pagination > .active > a:hover,
-.pagination > .active > span:hover,
-.pagination > .active > a:focus,
-.pagination > .active > span:focus {
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
     background-color: $themecolor;
     border-color: $themecolor;
 }
@@ -204,9 +207,9 @@ a.link {
 .sidebar-nav ul li.nav-small-cap {
     color: $sidebar-text;
 }
-@media (min-width: 768px){
-    .mini-sidebar .sidebar-nav #sidebarnav > li:hover > a {
-        
+
+@media (min-width: 768px) {
+    .mini-sidebar .sidebar-nav #sidebarnav>li:hover>a {
         background: $sidebar-alt;
     }
-} 
+}
