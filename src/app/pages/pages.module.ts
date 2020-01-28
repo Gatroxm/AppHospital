@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { PagesRoutingModule } from './pages-routing.module';
 import { ChartsModule } from 'ng2-charts';
 // Componentes
+import { AcountSettingsComponent } from './acount-settings/acount-settings.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
@@ -17,12 +18,13 @@ const components = [
     ProgressComponent,
     Graficas1Component,
     IncrementadorComponent,
+    AcountSettingsComponent
 ];
 
 @NgModule({
     declarations: [
         ...components,
-        GraficaDonaComponent
+        GraficaDonaComponent,
     ],
     imports: [
         SharedModule,
