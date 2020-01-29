@@ -12,19 +12,23 @@ import { PagesComponent } from './pages.component';
 // temporales
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 const components = [
     PagesComponent,
     DashboardComponent,
     ProgressComponent,
     Graficas1Component,
     IncrementadorComponent,
-    AcountSettingsComponent
+    PromesasComponent,
+    AcountSettingsComponent,
+    GraficaDonaComponent
 ];
 
 @NgModule({
     declarations: [
         ...components,
-        GraficaDonaComponent,
+        RxjsComponent,
     ],
     imports: [
         SharedModule,
